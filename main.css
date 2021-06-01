@@ -1,0 +1,394 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+*
+{
+	box-sizing:border-box;
+	margin:0;
+	padding:0;
+	text-decoration: none;
+	list-style-type: none;
+
+}
+body
+{
+	font-family: 'Roboto', sans-serif;
+	line-height:1.4;
+
+}
+a
+{
+	text-decoration:none;
+}
+p
+{
+	margin:0.75rem 0;
+}
+/*utility classes*/
+
+.container
+{
+	max-width:1100px;
+	margin:auto;
+	padding:0 2rem;
+	overflow:hidden;
+
+}
+.text-center
+{
+	text-align:center;
+}
+.text-primary
+{
+	color:#f7e703fb;
+}
+.bg-light
+{
+	background:#f4f4f4;
+	color:#333;
+}
+.bg-dark
+{
+	background:#333;
+	color:#fff;
+}
+.bg-primary
+{
+	background:#f7e703fb;
+	color:#fff;
+}
+.list
+{
+	margin:0.5rem 0;
+}
+.list li
+{
+	padding:0.5rem 0;
+	border-bottom:#444 dotted 1px;
+}
+
+.list2 li
+{
+	list-style-type:none;
+}
+.l-heading
+{
+	font-size:4rem;
+	margin-bottom:0.75rem;
+	line-height:1.1;
+}
+.m-heading
+{
+	font-size:2rem;
+	margin-bottom:0.75rem;
+	line-height:1.1;
+}
+
+
+
+.lead
+{
+	font-size:1.3rem;
+	margin-bottom:2rem;
+}
+.py-1 {padding:1.2rem 0;}
+.py-2 {padding:2rem 0;}
+.py-3 {padding:3rem 0;}
+
+.p-1 {padding:1.5rem;}
+.p-2 {padding:2rem;}
+.p-3 {padding:3rem;}
+
+.btn
+{
+	display:inline-block;
+	color:#333;
+	background:#fdf497;
+	padding:0.5rem 2rem;
+	border:none;
+	border-radius:5px;
+
+}
+
+.btn:hover
+{
+	background:#fdf497be;
+}
+
+.btn-dark
+{
+	background:#333;
+	color:#fff;
+}
+/*navbar*/
+#navbar
+{
+	display:flex;
+	background:#3b5999;
+	color:#fff;
+	position:sticky;
+	top:0;
+	justify-content:space-between;
+	z-index:1;
+	padding:1rem;
+
+}
+
+
+#navbar ul
+{
+	display:flex;
+	align-items:center;
+	list-style:none;
+
+}
+#navbar ul li a
+{
+	color:#fff;
+	padding:0.75rem;
+	margin:0 0.25rem;
+}
+#navbar ul li a:hover
+{
+	background:#f7e703fb;
+	border-radius:5px;
+
+}
+
+/*showcase*/
+
+#showcase
+{
+	background:#333 url("oficina.jpg")no-repeat center center/cover;
+	height:100vh;
+	color:#fff;
+}
+#showcase .showcase-content
+{
+	display:flex;
+	flex-direction:column;
+	text-align:center;
+	justify-content:center;
+	align-items:center;
+	height:100%;
+	padding:0 2rem;
+	/*overlay*/
+	position:absolute;
+	top:65px;
+	left:0;
+	right:0;
+	bottom:0px;
+	background-color:rgba(0,0,0,0.4);
+
+
+
+}
+/*section what we do*/
+
+#what .items
+{
+	display:flex;
+	padding:1rem;
+
+}
+ #what .items .item
+{
+	flex: 1;
+	text-align:center;
+	padding:1rem;
+
+}
+#what .items .item i
+{
+	background:#3b5999;
+	padding:1rem;
+	border-radius:50%;
+	margin-bottom:1rem;
+	color: white;
+}
+
+
+/*Section:Who we are*/
+
+#who
+{
+	display:flex;
+
+}
+
+#who div
+{
+	flex:1;
+}
+
+#who .who-img
+{
+	background:url("idiomas.jpg")no-repeat center center/cover;
+}
+/*sec-container*/
+
+#sec-container
+{
+	display:flex;
+
+}
+#sec-container div
+{
+	flex:3;
+
+}
+.first
+{
+
+	background:#333;
+	color:#fff;
+
+
+}
+
+#sec-container .img
+{
+	background-image: url("idiomas2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+
+}
+/*services*/
+#services
+{
+	background: #fff;
+	display:flex;
+	justify-content:space-between;
+
+
+	
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+  transition: 0.3s;
+	width: 30%;
+	margin: 40px;
+	/* object-fit: cover;
+  object-position: center; */
+}
+.card:hover
+{
+	background:#3b5999;
+	transition: all .3s ease-out;
+	color: #fdf497;
+}
+.text p
+{
+ text-align: center;
+}
+.card h3
+{
+	text-align: center;
+	text-decoration-line: underline;
+	text-transform: uppercase;
+}
+
+/*section contact*/
+
+footer
+{
+	display:flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 2rem;
+	background: #f7e703fb;
+
+}
+#who, #sec-container
+{
+	text-align:center;
+}
+footer ul
+{
+	display:flex;
+}
+footer ul li
+{
+	padding:1rem;
+}
+footer ul li a
+{
+	text-transform: uppercase;
+}
+
+
+
+/* Start social media */
+.social_media i
+{
+  margin-top: 20px;
+}
+.fa-instagram 
+{
+  text-align: center;
+  border-radius: 40px;
+  color: #fff;
+  background: #d6249f;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+  cursor: pointer;
+}
+.fa-facebook-square
+{
+  border-radius: 40px;
+  background-color: #3b5999;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.39);
+  cursor: pointer;
+  color:white;
+}
+.fa-youtube
+{
+    background: rgb(255, 0, 0);
+    border-radius: 40px;
+    box-shadow: 0px 3px 10px (0, 0, 0, 0.178);
+    cursor: pointer;
+    color:white;
+}
+.fa-linkedin
+{
+  border-radius: 40px;
+  background-color: rgb(10, 102, 194);
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.39);
+  cursor: pointer;
+  color:white;
+}
+.fab
+{
+    padding:10px;
+		margin:5px;
+    
+}
+/* End social media */
+
+/* Start newsletter */
+form
+{
+    margin-top: 20px;
+}
+.btn2,input
+{
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    padding:8px;
+    cursor: pointer;
+}
+input::placeholder
+{
+    text-align: center;
+}
+.btn2
+{
+    background:rgba(7, 59, 123);
+    color:white;
+    border: none;
+}  
+.btn2:hover
+{
+    background:rgba(7, 59, 123, 0.753);
+}

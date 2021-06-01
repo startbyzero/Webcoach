@@ -1,0 +1,87 @@
+
+#navbar
+{
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+#navbar h1
+{
+
+	margin-bottom: 10px;
+}
+#showcase .showcase-content
+{
+	padding:0 1rem;
+}
+#showcase .showcase-content
+{
+	top:90px;
+	
+}
+
+.btn
+{
+	padding:0.2 0.2rem;
+}
+#what .items 
+{
+	display:flex;
+	flex-direction:column;
+
+}
+#what .items 
+{
+	padding:1rem;
+	font-size:0.8rem;
+}
+#who .who-img
+{
+	display:none;
+}
+#who
+
+{
+	display:flex;
+	flex-direction:column;
+}
+#who
+{
+	font-size:0.9rem;
+}
+#sec-container
+{
+		display:flex;
+		flex-direction:column;	
+}
+#sec-container
+{
+	border-top:5px solid#fdf497;
+}
+#sec-container
+{
+	font-size:0.9rem;
+	
+}	
+#sec-container .img
+{
+	display:none;
+}
+footer
+{
+	display:flex;
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
